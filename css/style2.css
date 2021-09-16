@@ -1,0 +1,6 @@
+.container > .row{margin-bottom: 100px;}
+
+.container > span{font-weight: bolder; font-size: 1.1rem;}
+
+.masthead > .container > .at_left{float: left;}
+.masthead > .container > .at_right{float: right;}
