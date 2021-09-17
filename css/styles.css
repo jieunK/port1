@@ -11363,11 +11363,12 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #936B6;
 }
 #mainNav .navbar-toggler {
-  font-size: 80%;
+  /* font-size: 80%; */
   padding: 0.8rem;
+  color: #fff;
 }
 
 @media (min-width: 992px) {

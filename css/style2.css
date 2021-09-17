@@ -2,5 +2,12 @@
 
 .container > span{font-weight: bolder; font-size: 1.1rem;}
 
-.masthead > .container > .at_left{float: left;}
-.masthead > .container > .at_right{float: right;}
+.at_left span{font-weight: 600; padding-right: 10px;}
+
+#portfolio{background-color: #edded8;}
+
+.footer_line > .divider-custom-line{background-color: #fff}
+.footer_line > .divider-custom-icon{color: #fff; }
+.Contact_1 >div>p>a {font-size: 1.5rem;}
+
+.poItem_pa{margin-top: 5%;}
