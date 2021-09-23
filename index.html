@@ -6,6 +6,10 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>KIM ji eun portfolio</title>
+        <!--카카오 메타태그 정보-->
+        <meta property="og:image" content="image/assets/favicon 800*400"> <!--링크 이미지-->
+        <meta property="og:title" content="링크 타이틀 내용">
+        <meta property="og:description" content="소개 내용">
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -37,13 +41,12 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <div><img src="assets/img/guide_1.png"></div> <!--움직임, 메인-->
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
                 <!-- <img class="masthead-avatar mb-5" src="assets/img/guide_2.png" alt="..." /> -->
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">KIM ji eun</h1>
+                <div><h1 class="main_text"><span>Ji-Eun,</span><br><span>KIM</span></h1></div> <!--움직임, 메인-->
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -64,11 +67,17 @@
                         <br><span>2018.03 ~ 2021.02</span> 영유아 보육교사
                     </p>
                     <h4>Skill</h4>
-                    <p> 
-                        <span>아이콘</span> 50%
+                    <form class="skill"> 
+                        <label><span>Ps</span> <progress value="90" max="100"></progress><span>90%</span></label>
                         <br>
-                        <span>아이콘</span> 50%
-                    </p>
+                        <label><span>Ai</span> <progress value="75" max="100"></progress><span>75%</span></label>
+                        <br>
+                        <label><span>Html5</span> <progress value="70" max="100"></progress><span>70%</span></label>
+                        <br>
+                        <label><span>Css3</span> <progress value="60" max="100"></progress><span>60%</span></label>
+                        <br>
+                        <label><span>Jquery</span> <progress value="50" max="100"></progress><span>50%</span></label>
+                    </form>
                 </div>
             </div>
         </header>
@@ -100,7 +109,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/02ediyam.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/08bossm.jpg" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
@@ -122,8 +131,8 @@
                         </div>
                     </div>
                     <!-- Portfolio Item 7-->
-                    <div class="col-md-6 col-lg-4 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -131,17 +140,17 @@
                         </div>
                     </div>
                      <!-- Portfolio Item 8-->
-                     <div class="col-md-6 col-lg-4 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/07logom.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/02ediyam.jpg" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 5-->
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0 poItem_pa">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -150,7 +159,7 @@
                     </div>
                     <!-- Portfolio Item 6-->
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0 poItem_pa">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
@@ -174,7 +183,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row">
+                <div class="row row_padding">
                     <div class="col-lg-4 ms-auto">
                         <img class="lead" src="assets/img/guide_1.png" alt="가이드1"  width="100%">
                     </div>
@@ -188,18 +197,21 @@
                             <span>설명</span>영유아들의 과학 호기심을 일으키기 위한 디자인과 깔끔하고 심플한 느낌을 주고 일러스트를 삽입했습니다.<br>
                         </p>
                         <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="pro1/index.html" target="_blank">
-                        <i class=""></i>
-                        View site!
-                    </a>
-                </div>
+                        <div class="text-center mt-4">
+                            <a class="btn btn-xl btn-outline-light" href="pro1/index.html" target="_blank">
+                                <i class=""></i>
+                                View site!
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
                 <br>
-                <div class="row">
+                <div class="row row_padding">
                     <div class="col-lg-4 ms-auto">
+                        <img class="lead" src="assets/img/guide_2.png" alt="가이드2" width="100%">
+                    </div>
+                    <div class="col-lg-4 me-auto">
                         <p class="lead">
                             <span>사이트맵</span>신전 떡볶이<br>
                             <span>제작기간</span> <br>
@@ -216,9 +228,7 @@
                         </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 me-auto">
-                        <img class="lead" src="assets/img/guide_2.png" alt="가이드2" width="100%">
-                    </div>
+                    
                 </div>
                 
             </div>
@@ -230,7 +240,7 @@
             <section class="page-section" id="contact">
                 <div class="container">
                     <!-- Contact Section Heading-->
-                    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                    <h2 class="page-section-heading text-center text-uppercase mb-0">Contact Me</h2>
                     <!-- Icon Divider-->
                     <div class="divider-custom footer_line">
                         <div class="divider-custom-line"></div>
@@ -314,7 +324,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">02. 이디야 커피 배너</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">02. 베스킨라빈스 인스타 해시태그 이벤트 배너</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -322,7 +332,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/02ediya.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/08boss.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4"></p>
                                     <!--<button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
@@ -410,7 +420,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">05. 총알 배송 이벤트 배너</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">05. 크루저 로고 디자인</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -418,7 +428,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/05deli.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/07logo.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4"></p>
                                     <!--<button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
@@ -442,7 +452,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">06. 미소네 동물병원 배너</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">06. 이디야 커피 배너</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -450,7 +460,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/06miiso.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/02ediya.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4"></p>
                                     <!--<button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
@@ -474,7 +484,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">07. 크루저 로고</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">07. 쇼핑몰 총알배송 이벤트 배너</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -482,13 +492,42 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/07logo.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/05deli.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4"></p>
                                     <!--<button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
                                     </button>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 8-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal8" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">08. 미소네 동물병원 배너</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/06miiso.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4"></p>
+
                                 </div>
                             </div>
                         </div>

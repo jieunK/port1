@@ -1,5 +1,64 @@
-.container > .row{margin-bottom: 100px;}
+/* 메인 텍스트 움직임 */
+.main_text{
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 8em;
+    padding: 0;
+    color: white;
+    text-shadow: 0 0.1em 20px rgba(83, 53, 36, 1), 0.05em -0.03em 0 rgb(83, 53, 36, 1),
+      0.05em 0.005em 0 rgba(83, 53, 36, 1), 0em 0.08em 0 rgba(83, 53, 36, 1),
+      0.05em 0.08em 0 rgba(83, 53, 36, 1), 0px -0.03em 0 rgba(83, 53, 36, 1),
+      -0.03em -0.03em 0 rgba(83, 53, 36, 1), -0.03em 0.08em 0 rgba(83, 53, 36, 1), -0.03em 0 0 rgba(83, 53, 36, 1); 
+  }
 
+  .main_text > span {
+    transform: scale(0.9);
+    display: inline-block;
+  }
+  .main_text > span:first-child {
+    animation: bop 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards infinite alternate;
+  }
+  .main_text > span:last-child {
+    animation: bopB 1s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards
+      infinite alternate;
+  }
+
+/* 메인 애니메이션 */
+  @keyframes bop {
+    0% {
+      transform: scale(0.9);
+    }
+    50%,
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes bopB {
+    0% {
+      transform: scale(0.9);
+    }
+    80%,
+    100% {
+      transform: scale(1) rotateZ(-3deg);
+    }
+  }
+  
+/* 스킬*/
+.skill>label>span:first-child{display: inline-block; width: 70px;}
+.skill>label>span:last-child{font-size: 0.8em; padding-left: 5px; font-weight:normal; color: #b89087;}
+
+/* 스킬 창 색상 수정*/
+.skill progress{color: #936B63;}
+.skill progress::-webkit-progress-value { background: #936B63; }
+progress {-webkit-appearance: none;appearance: none;}
+progress::-webkit-progress-bar { background-color: white; border-radius: 5px;}
+progress[value] {-webkit-appearance: none;appearance: none;}
+progress[value]::-webkit-progress-value { border-radius: 5px 0 0 5px; background-size: 10px 10px, 100% 100%, 100% 100%;}
+
+
+.container > .row{margin-bottom: 100px; margin-top: 30px;}
+.row_padding > div{margin-top: 50px}
 .container > span{font-weight: bolder; font-size: 1.1rem;}
 
 .at_left span{font-weight: 600; padding-right: 10px;}
@@ -11,3 +70,4 @@
 .Contact_1 >div>p>a {font-size: 1.5rem;}
 
 .poItem_pa{margin-top: 5%;}
+#contact h2{color: #fff;}
